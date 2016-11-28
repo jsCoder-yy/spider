@@ -1,0 +1,30 @@
+{
+  "name": "spider",
+  "version": "0.0.1",
+  "description": "talk is cheep，show me the code！技术改变生活",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsCoder-yy/spider.git"
+  },
+  "keywords": [
+    "spider",
+    "nodejs",
+    "vue"
+  ],
+  "author": "jsCoder-yy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsCoder-yy/spider/issues"
+  },
+  "homepage": "https://github.com/jsCoder-yy/spider#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "gbk": "^0.1.0",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.79.0"
+  }
+}
