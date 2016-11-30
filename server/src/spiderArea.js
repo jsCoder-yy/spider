@@ -19,8 +19,8 @@ module.exports=(()=>{
     sendMessage:function(){
       //应用密匙 见：http://www.alidayu.com/help?spm=a3142.7802526.1.24.iEB4Yc&_t=1#create
       const config = {
-        app_key: '23550171',
-        secret: '600dab93b43a236aea8cd1093121df95'
+        app_key: '23550171***',
+        secret: '600dab93b43a236aea8cd1093121df95***'
       };
       let alidayu = new Alidayu(config);
       //参数 见：http://open.taobao.com/doc2/apiDetail.htm?apiId=25450
