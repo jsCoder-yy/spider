@@ -52,6 +52,7 @@ module.exports=(()=>{
             let buf = new Buffer(source, 'binary');
             let str = iconv.decode(buf, 'GBK');
             let $ = cheerio.load(str);
+            //这里输出的内容就不会有乱码了
             let num=$('.goods-meta-name').next().eq(1).text().substring(0,1);
             if(num!=0){
               console.log('有货了');
@@ -59,7 +60,6 @@ module.exports=(()=>{
             else{
               console.log('没货');
             }
-              //这里输出的内容就不会有乱码了
           }).on("error", function() {
             console.error('获取数据出现错误');
           });
